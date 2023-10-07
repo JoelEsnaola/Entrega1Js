@@ -8,8 +8,8 @@
   
      function jueguito() { 
         while (true) { 
-                let  jugada1 = prompt(`${jugador1} ¿Piedra, papel o tijera?`); 
-                let  jugada2 = prompt(`${jugador2} ¿Piedra, papel o tijera?`); 
+                let  jugada1 = prompt(`${jugador1} ¿Piedra, papel o tijera?`).toLowerCase(); 
+                let  jugada2 = prompt(`${jugador2} ¿Piedra, papel o tijera?`).toLowerCase(); 
   
                   if (jugada1 === jugada2) {                       
                     alert("Empate, sigan jugando."); 
